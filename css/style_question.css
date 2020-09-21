@@ -1,0 +1,66 @@
+*, *:before, *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0px;
+}
+li{
+	list-style: none;
+}
+html{
+	overflow-x: hidden;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	overflow-x: hidden;
+	background: url(../img/bg.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 18px;
+}
+:root {
+	--yl: #FFCC00;
+}
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+.d_g {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+.m_l {
+	grid-column: 3/13;
+}
+.d_f {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.fd_c {
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+.j_sb {
+	justify-content: space-between;
+}
+.h {
+	height: 100vh;
+}
+.title {
+	font-size: 80px;
+	font-weight: 800;
+}
+.yellow {
+	color: var(--yl);
+}
+.shef__mob {
+	display: none;
+}

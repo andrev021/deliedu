@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Делиеду</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css'>
+	<link rel="stylesheet" href="css/style_shef.css">
+</head>
+<body>
+
+
+
+	<div class="menu__overlay">
+		<div class="menu__overlay__title title">Навигация</div>
+		<ul class="menu__overlay__nav">
+			<li><a href="index.html">главная</a></li>
+			<li><a href="shef.html">для шефов</a></li>
+			<li><a href="service.html">о сервисе</a></li>
+		</ul>
+		<div class="menu__close">
+			<span></span>
+		</div>
+	</div>
+
+	<section class="menu d_g">
+		<div class="menu__burger">
+			<span></span>
+		</div>
+		<div class="menu__nav m_l d_f j_sb">
+			<div class="menu__logo"><a href="#"><img src="img/logo.svg" alt="делиеду"></a></div>
+			<div class="menu__bages">
+			<a class="google__link" href='https://play.google.com/store/apps/details?id=com.halfbrick.jetpackjoyride&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+				<img alt='Доступно в Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/ru_badge_web_generic.png'/>
+			</a>
+		</div>
+		</div>
+	</section>
+	
+	
+	<section class="quest d_g">
+		<div class="quest__title title m_l">Заполните анкету</div>
+		<div class="quest__subtitle m_l">На указанный номер телефона мы пришлём СМС-сообщение с ссылкой на наше приложение «Делиеду»</div>
+		<form action="POST" class="quest__form m_l" id="quest__form">
+			<label class="quest__label">Ф.И.О.<input class="quest__input" type="text" id="name" placeholder="Басов Артур Леонидович"></input></label>
+			<label class="quest__label">Дата рождения<input class="quest__input" type="date" id="date"></input></label>
+			<label class="quest__label">Телефон<input class="quest__input" type="tel" id="phone" placeholder="+7 999-999-99-99"></input></label>
+			<div class="quest__place">
+				<span>Гражданство</span>
+				<select name="country" id="country">
+					<option value="Россия">Российская Федерация</option>
+				</select>
+				<span>Город, в котором хотите работать</span>
+				<select name="city" id="city">
+					<option value="Москва">Москва</option>
+				</select>
+			</div>
+		</form>
+		<input class="quest__button" type="submit" value="Отправить анкету &#10132;" form="quest__form">
+		<div class="quest__close">
+			<span></span>
+		</div>
+	</section>
+
+	<div class="quest__link">
+		<span>Заполните анкету</span>
+	</div>
+
+	<div id="fullpage">
+	<section class="section shef_d1 d_g h">
+		<img class="shef_d1__img is-animated animated fadeInLeft is-animated" src="img/shef.png" alt="shef">
+		<div class="shef_d1__text is-animated animated fadeInDown is-animated">
+			<div class="shef_d1__title title">Ищем людей, которые <span class="yellow">любят готовить</span></div>
+			<div class="shef_d1__subtitle">Надежный доход от 90 000 рублей в месяц</div>
+		</div>
+	</section>
+
+
+
+	<section class="section shef_d2 d_g h">
+		<div class="shef_d2__title title m_l is-animated">Мы предлагаем</div>
+		<div class="shef_d2__cards m_l d_f j_sb is-animated">
+			<div class="shef_d2__card">
+				<div class="circle">
+					<div class="shef_d2__number">1</div>
+				</div>
+				
+				<div class="shef_d2__card__title">Гарантию прибыли</div>
+				<div class="shef_d2__card__text">При работе 5 дней в неделю Делиеду гарантирует вам прибыль более 90 000 рублей</div>
+			</div>
+			<div class="shef_d2__card">
+				<div class="circle">
+					<div class="shef_d2__number">2</div>
+				</div>
+				<div class="shef_d2__card__title">Выплаты вовремя</div>
+				<div class="shef_d2__card__text">Вы сможете выводить деньги на свою банковскую карту ежедневно</div>
+			</div>
+			<div class="shef_d2__card">
+				<div class="circle">
+					<div class="shef_d2__number">3</div>
+				</div>
+				<div class="shef_d2__card__title">Стабильный и гибкий график</div>
+				<div class="shef_d2__card__text">С нами вы сможете планировать свой график заранее </div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	
+
+	<section class="section shef_d34 shef_d3 d_g h" >
+		<div class="shef_d34__text shef_d3__text">
+			<div class="shef_d34__title shef_d3__title title is-animated">Кто мы?</div>
+			<div class="shef_d34__p shef_d3__p is-animated">Делиеду — это сервис объединяющий людей, которые любят готовить, с людьми у которых нет времени на готовку еды</div>
+		</div>
+		<img src="img/iphone__shef.png" alt="iphone" class="shef_d34__img shef_d3__img is-animated">
+	</section>
+
+
+
+
+	<section class="section shef_d34 shef_d4 d_g h" >
+		<div class="shef_d34__text shef_d4__text">
+			<div class="shef_d34__title shef_d4__text title is-animated">Как это происходит</div>
+			<div class="shef_d34__p shef_d4__text is-animated">Вы будете готовить у себя в квартире. Гости смогут забрать еду с собой или заказать доставку. Наши райдеры все доставят. Вам нужно только готовить.</div>
+		</div>
+		<img src="img/resroran.png" alt="restoran" class="shef_d4__img is-animated">
+	</section>
+
+
+
+
+	<section class="section shef_d5 d_g h">
+		<div class="shef_d5__title title m_l is-animated">Как присоединиться</div>
+		<div class="shef_d5__cards shef_d5__cards__desc m_l d_f j_sb is-animated">
+			<div class="shef_d5__card">
+				<div class="shef_d5__img"><img src="img/ank.png" alt="ank"></div>
+				<div class="shef_d5__card__text">Заполните анкету</div>
+			</div>
+			<div class="shef_d5__card">
+				<div class="shef_d5__img"><img src="img/phone.png" alt="phone"></div>
+				<div class="shef_d5__card__text">Установите приложение</div>
+			</div>
+			<div class="shef_d5__card">
+				<div class="shef_d5__img"><img src="img/callman.png" alt="callman"></div>
+				<div class="shef_d5__card__text">Пройдите собеседование и тренинг</div>
+			</div>
+			<div class="shef_d5__card">
+				<div class="shef_d5__img shef_d5__img4"><img src="img/doc.png" alt="doc"></div>
+				<div class="shef_d5__card__text">Подпишите договор</div>
+			</div>
+			<div class="shef_d5__card">
+				<div class="shef_d5__img shef_d5__img5"><img src="img/eat4.png" alt="eat"></div>
+				<div class="shef_d5__card__text">Делайте вкусно</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<section class="section shef_d6 d_g h">
+		<div class="shef_d6__title title m_l is-animated">Отзывы</div>
+
+
+		<div class="sl-count sl-count__mob">
+			<span class="sl-count__current">1</span> / <span class="sl-count__total"></span>
+		</div>
+
+
+		<div class="shef_d6__slider is-animated">
+
+			<div class="shef_d6__slide d_f j_sb">
+				<div class="shef_d6__slide__img">
+					<img class="d6__desc" src="img/slide1.png" alt="human">
+					<img class="d6__mob" src="img/d6_slid_mob1.png" alt="">
+				</div>
+				<div class="sl-count sl-count__desc">
+					<span class="sl-count__current">1</span> / <span class="sl-count__total"></span>
+				</div>
+				<div class="shef_d6__text">
+					<div class="shef_d6__text__title">
+						<div class="shef_d6__text__name">Валерия, </div>
+						<div class="shef_d6__text__ago">32 года</div>
+					</div>
+					<div class="shef_d6__text_p">
+						«Мне важно, чтобы всё было стабильно. Я знаю, что Делиеду точно привидет ко мне клиентов. У меня одно время даже были деньги на собственное кафе, но было слишком много рисков.  Делиеду устраняет все мои риски и помогает мне зарабатывать столько, сколько я хочу. Большое спасибо!»
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<div class="shef_d6__slide d_f j_sb">
+				<div class="shef_d6__slide__img">
+					<img class="d6__desc" src="img/slide2.png" alt="human">
+					<img class="d6__mob" src="img/d6_slide_mob.png" alt="">
+				</div>
+				<div class="sl-count sl-count__desc">
+					<span class="sl-count__current">1</span> / <span class="sl-count__total"></span>
+				</div>
+				<div class="shef_d6__text">
+					<div class="shef_d6__text__title">
+						<div class="shef_d6__text__name">Павел, </div>
+						<div class="shef_d6__text__ago">26 лет</div>
+					</div>
+					<div class="shef_d6__text_p">
+						Я работал поваром в хорошем ресторане, но со временем устал от всего. Устал каждый день тратить время и деньги на дорогу. Устал слушать начальство, задержки зп и так далее. В общем все накопилось. Теперь я сам себе хозяин, меня все устраивает 
+и перед мной открываются большие возможности. Спасибо ! 
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<div class="shef_d6__slide d_f j_sb">
+				<div class="shef_d6__slide__img">
+					<img class="d6__desc" src="img/slide3.png" alt="human">
+					<img class="d6__mob" src="img/d6_slide_mob3.png" alt="">
+				</div>
+				<div class="sl-count sl-count__desc">
+					<span class="sl-count__current">1</span> / <span class="sl-count__total"></span>
+				</div>
+				<div class="shef_d6__text">
+					<div class="shef_d6__text__title">
+						<div class="shef_d6__text__name">Тина, </div>
+						<div class="shef_d6__text__ago">48 лет</div>
+					</div>
+					<div class="shef_d6__text_p">
+						Мне всегда нравилось кормить людей. Здорово что теперь у меня есть такая возможность. Мне не нужно ни о чем волноваться, есть клиенты, удобное приложение. Все что нужно делать это заниматься тем, что любишь. Спасибо вам ребята 
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+
+
+
+	<section class="section main_d7 d_g h">
+		<div class="main_d7__title title m_l is-animated">Часто задаваемые вопросы</div>
+		<div class="main_d7__spoilers m_l one is-animated">
+			<div class="main_d7__spoiler is-animated">
+				<div class="main_d7__spoiler__title"><span>Если мою квартиру обворуют?</span></div>
+				<div class="main_d7__spoiler__text">Мы страхуем квартиру каждого шефа более чем на 1 млн рублей.
+Мы уверены, что все наши клиенты хорошие люди, поэтому такое не случится. Но мы готовы ко всему.  На всякий случай не храните на видных местах дорогие вещи
+				</div>
+			</div>
+			<div class="main_d7__spoiler is-animated">
+				<div class="main_d7__spoiler__title"><span>Законно ли то, что я буду готовить в квартире?</span></div>
+				<div class="main_d7__spoiler__text">По сути, вы на время заключаете гражданский договор (автоматизировано) с каждым клиентом и выступаете в договоре в качестве личного шеф-повара.
+Подробнее с юридической часть вы можете ознакомиться здесь
+				</div>
+			</div>
+			<div class="main_d7__spoiler is-animated">
+				<div class="main_d7__spoiler__title"><span>Моя зарплата будет официальной?</span></div>
+				<div class="main_d7__spoiler__text">Да
+				</div>
+			</div>
+			<div class="main_d7__spoiler is-animated">
+				<div class="main_d7__spoiler__title"><span>Сколько я буду зарабатывать?</span></div>
+				<div class="main_d7__spoiler__text">Ваш минимальный заработок составит 80 000 рублей
+Некоторые наши шефы зарабатывают более 140 000 рублей
+				</div>
+			</div>
+			<div class="main_d7__spoiler is-animated">
+				<div class="main_d7__spoiler__title"><span>Что входит в мои обязанности?</span></div>
+				<div class="main_d7__spoiler__text">Вкусно готовить и соблюдать все правила Делиеду</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<footer class="section footer d_g">
+		<div class="footer__title title m_l is-animated">У нас одна цель — кормить всех <span class="yellow">вкусной</span> и <span class="yellow">качественной</span> едой по <span class="yellow">доступным ценам</span></div>
+		<ul class="footer__menu m_l f_g is-animated">
+			<li class="footer__link"><a href="shef.html">Стать шефом</a></li>
+			<li class="footer__link"><a href="service.html">О сервисе</a></li>
+			<li class="footer__link"><a href="question.html">Вопрос-ответ</a></li>
+			<li class="footer__link"><a href="security.html">Безопасность</a></li>
+		</ul>
+		<div class="footer__info m_l f_g is-animated">
+			<div class="footer__info_number"><a href="tel:+79165332226">+7 (916) 533-22-26</a></div>
+			<div class="footer__info_mail"><a href="mailto:deli_edu@mail.ru">deli_edu@mail.ru</a></div>
+			<div class="footer__info_org d_f fd_c">
+				<span class="footer__info_org_item">ООО Делиеду</span>
+				<span class="footer__info_org_item">ОГРН 1207700120792</span>
+				<span class="footer__info_org_item">ИНН 9718154596</span>
+			</div>
+		</div>
+	</footer>
+	</div>
+
+
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<script src="js/animate-css.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js'></script>
+	<script src="js/slick.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script src="js/main__shef.js"></script>
+</body>
+ 
+</html>
